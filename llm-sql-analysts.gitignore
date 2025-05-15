@@ -1,3 +1,8 @@
 # backend/ gitignore
 .env
 node_modules/
+cd backend/
+git add .gitignore
+git remote --cached .env
+gut commit -m"add .gitignore and remove .env from tracking"
+git push
